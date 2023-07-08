@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* background-image: url("nature.jpg"); */
+            /* border: 1px solid #ffd12c90; */
+            /* border-width: 50px; */
+            background-color: black;
+            /* width: auto;
+            height: 100%;
+            text-align: center;
+            margin: auto;
+            padding: 200px;
+            font-size: auto;
+            max-width: auto;
+            min-width: auto;
+            font-weight: 500; */
+        }
+
+        .input {
+            color: aqua;
+            border-radius: 3px;
+            padding: 20px;
+            color: aqua;
+        }
+
+        .input input {
+            border-radius: 20px;
+            padding: 10px;
+            margin-left: 60px;
+            border: none;
+        }
+
+        .Email {
+            color: aqua;
+            border-radius: 3px;
+            padding: 20px;
+        }
+
+        .Email input {
+            padding: 10px;
+            border-radius: 90px;
+            margin-left: 89px;
+            border: none;
+        }
+        
+        .button {
+            margin-left: 160px;
+        }
+        
+        .button button {
+            border: none;
+            width: 100px!important;
+            font-size: large;
+            border-radius: 20px;
+            padding: 10px;
+            margin-right: 60px;
+            margin-top: 30px;
+            background-color: aquamarine;
+        }
+
+        .regform {
+            background-color: rgba(128, 128, 128, 0.6);
+            width: 400px;
+            height: 350px;
+            border-radius: 30px;
+            margin-left: 30%;
+            margin-top: 5%;
+        }
+
+        .Register {
+            padding-top: 50px;
+            font-weight: 300px;
+        }
+
+        input:focus {
+            background-color: aqua;
+        }
+
+        /* here the input is the class name */
+        .input input {
+            accent-color: black;
+
+        }
+
+        /* here the first input is the classname and the second input is the input */
+    </style>
+</head>
+
+<body>
+    <div class="regform">
+        <div class="Register">
+            <form action="" style="color: aqua; text-align: center;" font-size="100px" >Register</form>
+        </div>
+        <!-- <div class="input">
+        <label for="User name">User name</label>
+        <input type="text" name="User name" id="User name" required>
+    </div> -->
+    <div class="Email">
+        <label for="Email">Email</label>
+        <input type="Email" name="Email" id="email" required>
+    </div>
+    <div class="input">
+        <label for="Password">Password</label>
+        <input type="Password" name="Password" id="password" required>
+    </div>
+
+        <div class="button">
+            <button type="submit" id="btn">Login</button>
+        </div>
+    </div>
+
+    <script type="module" src="log.js"></script>
+</body>
+
+</html>
